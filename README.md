@@ -1,7 +1,7 @@
 LEAFSOFT
 =========
 
-## Login and Registration Example Project with Spring Security
+## Login and Registration Example with Spring Security
 
 
 ### Relevant Articles: 
