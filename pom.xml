@@ -6,7 +6,7 @@
     <artifactId>spring-security-login-and-registration</artifactId>
     <version>1.0.1-SNAPSHOT</version>
 
-    <name>spring-security-login-and-registration</name>
+    <name>ROOT</name>
     <packaging>war</packaging>
 
     <parent>
@@ -46,25 +46,11 @@
         <!-- Servlet -->
         <dependency>
             <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>javax.servlet.jsp</groupId>
-            <artifactId>javax.servlet.jsp-api</artifactId>
-            <version>${javax.servlet.jsp-api.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-taglibs</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>javax.el</groupId>
-            <artifactId>el-api</artifactId>
-            <version>2.2</version>
         </dependency>
 
         <dependency>
